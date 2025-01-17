@@ -1,2 +1,37 @@
 models/
-venv/Lib
+
+# Environnement virtuel
+venv/
+
+# Fichiers générés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuration d'environnement local
+.env
+.DS_Store
+.vscode/
+
+# Fichiers de logs
+*.log
+
+# Cache des outils comme pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Fichiers spécifiques au système
+*.swp
+*.swo
+.idea/
+
+# Fichiers audio temporaires
+temp_audio.wav
+
+# Si tu utilises PyTorch/Whisper, évite de commiter les modèles volumineux
+models/
+
+# Clés secrètes ou configurations sensibles
+*.key
+*.pem
